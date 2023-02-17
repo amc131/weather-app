@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+.city-search {
+  display: flex;
+  flex-direction: row
+}
+
+.city-search input {
+  height: 1.5rem;
+  width: 12rem;
+  outline: none;
+}
+
+.city-search button {
+  background-color: #ec6e46;
+  border: none;
+}
+
+
+.left-main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 1.5rem;
+  margin-top: 4rem;
+  gap: 16px;
+}
+
+.right-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}

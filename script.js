@@ -13,7 +13,8 @@ async function getAPI(url) {
   const response = await fetch(url, { mode: 'cors' });
   const getTempData = await response.json();
   const tempToConvert = getTempData.main.temp;
-  console.log(tempToConvert);
+  const convertedTemp = (1.8 * (tempToConvert - 273) + 32).toFixed(1);
+  console.log(convertedTemp);
 }
 
 getAPI();
